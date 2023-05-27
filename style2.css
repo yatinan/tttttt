@@ -1,0 +1,52 @@
+body {
+    background-color: #F9F5F6;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    background-color: lightpink;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.navigation .link {
+    flex: 1;
+    text-align: center;
+}
+
+
+.navigation .link.left {
+    text-align: left;
+}
+
+.navigation .link.center {
+    text-align: center;
+}
+
+.navigation .link.right {
+    text-align: right;
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.map iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}

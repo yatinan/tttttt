@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    background-color: snow;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.navigation .link {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.navigation .link.left {
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation .link.center {
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation .link.right {
+    text-align: right;
+    text-decoration: none;
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.map iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
